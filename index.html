@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Monitoring Project - Index</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <h2>Data Monitoring</h2>
+    <button id="logoutBtn">Logout</button>
+    <table id="dataTable">
+        <thead>
+            <tr>
+                <th>Nama Perusahaan</th>
+                <th>Mitra</th>
+                <th>Progress</th>
+            </tr>
+        </thead>
+        <tbody>
+            <!-- Data akan ditambahkan di sini -->
+        </tbody>
+    </table>
+    <form id="dataForm">
+        <input type="text" id="companyName" placeholder="Nama Perusahaan">
+        <input type="text" id="partner" placeholder="Mitra">
+        <input type="text" id="progress" placeholder="Progress">
+        <button type="submit">Submit</button>
+    </form>
+    <input type="file" id="excelFile">
+    <script src="js/script.js"></script>
+</body>
+</html>
